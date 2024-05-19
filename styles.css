@@ -294,4 +294,77 @@ header article nav .search i {
 header article nav .right_bx {
   width: 38%;
   border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header article nav .right_bx i {
+  color: var(--color-4);
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.5s linear;
+}
+
+header article nav .right_bx i:hover {
+  color: #fff;
+}
+
+header article nav .right_bx button {
+  padding: 0 20px;
+  background: rgb(184, 184, 184, 0.2);
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: #fff;
+  transition: 0.5s linear;
+}
+
+header article nav .right_bx button span {
+  margin: -2px 0 0 10px;
+}
+
+/* battery active class */
+header article nav .right_bx .active_battery {
+  background: #663da6;
+  box-shadow: 0 0 20px #663da6;
+}
+
+header article nav .right_bx .user_data {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.5s linear;
+}
+
+header article nav .right_bx .user_data h6 {
+  width: 70px;
+  color: var(--color-4);
+  font-weight: 600;
+  font-size: 9px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: 0.5s linear;
+}
+
+header article nav .right_bx .user_data h5 {
+  color: #fff;
+  background: #663da6;
+  border-radius: 50%;
+  padding: 8px 9px;
+  font-size: 11px;
+  margin: 0 5px;
+  transition: 0.5s linear;
+}
+
+header article nav .right_bx .user_data i {
+  color: var(--color-2);
+  font-size: 12px;
+  transition: 1s linear;
+}
+
+header article nav .right_bx .user_data:hover i {
+  transform: rotate(180deg);
 }
